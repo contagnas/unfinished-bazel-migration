@@ -1,0 +1,26 @@
+{
+  "name": "scala",
+  "argv": [
+    "/nix/store/ahnx9jmmf66f2cx50y97alxnsq0qjwr7-scala-next-3.5.1/bin/scala-cli.jar",
+    "--cli-default-scala-version",
+    "3.5.1",
+    "--repository",
+    "file:///nix/store/ahnx9jmmf66f2cx50y97alxnsq0qjwr7-scala-next-3.5.1/maven2",
+    "--prog-name",
+    "scala",
+    "bsp",
+    "--json-options",
+    "/home/chills/bazel-todo/src/com/softwaremill/realworld/common/.scala-build/ide-options-v2.json",
+    "--json-launcher-options",
+    "/home/chills/bazel-todo/src/com/softwaremill/realworld/common/.scala-build/ide-launcher-options.json",
+    "--envs-file",
+    "/home/chills/bazel-todo/src/com/softwaremill/realworld/common/.scala-build/ide-envs.json",
+    "/home/chills/bazel-todo/src/com/softwaremill/realworld/common/CustomAuthInputs.scala"
+  ],
+  "version": "1.4.3",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}
